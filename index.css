@@ -1,0 +1,109 @@
+body{
+    background: #1C1C1C;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 80%;
+    max-width: 550px;
+}
+
+#conversion{
+    background: #6943FF;
+    color: white;
+    padding: 2rem;
+}
+
+#conversion h1{
+    font-size: 28px;
+    margin: 0;
+}
+
+#conversion .unit-input input {    
+    display: block;
+    margin: 1rem auto;
+    padding: 2px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 24px;
+    text-align: center;
+
+    color: white;
+    
+    width: 100px;
+    border: 2px solid #B295FF;
+    border-radius: 5px;
+    background: transparent;
+}
+
+#conversion .unit-input input:focus,
+#conversion .unit-input input:focus-visible,
+#conversion .unit-input input:target{
+    border: none;
+}
+
+#conversion button {
+    display: block;
+    margin: 0 auto;
+
+    background: #FFFFFF;
+    /* shadow/sm */
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #3D3D3D;
+    border: none;
+    cursor: pointer;
+    padding: 4px 20px;
+}
+
+#exportation{
+    margin: 0;
+    padding: 2.5rem 2rem;
+    background: #1F2937;
+}
+
+#exportation div{
+    margin: 0;
+    padding: 1rem ;
+    background: #273549;
+    border-radius: 5px;
+}
+
+#exportation div:not(:last-child){
+    margin-bottom: 1rem;
+}
+
+#exportation h4 {
+    color: #CCC1FF;
+    text-align: center;
+    line-height: 32px;
+    margin: 0;
+    padding: 0;
+}
+
+#exportation p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
